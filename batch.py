@@ -8,7 +8,7 @@ for i in f.read().splitlines():
     print(i)
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(hostname=i, port=22, username='root', password='iflytek!ty')
+    ssh.connect(hostname=i, port=22, username='root', password='xxxx')
     stdin, stdout, stderr = ssh.exec_command(cmd)
     result = stdout.read()
     if not result:
