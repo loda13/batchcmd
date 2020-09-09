@@ -1,0 +1,2 @@
+# batchcmd
+类ansible
